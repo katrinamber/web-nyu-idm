@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<!-- The head tag is an html marquee tag. This lets the person know that this is an HTML document. -->
+
+<head>
+  <!-- This is an HTML marquee that lets the author name the title. This is what appears
+   on the top of the search bar with the different tabs of the browser that this document is opened with. -->
+  <title>Planes Commented</title>
+  <style>
+    /* CSS goes here */
+    body {
+      /* this is an css property that changes background color.
+      It's changed to dark slate blue which is a purple blue. */
+      background-color: DarkSlateBlue;
+      /* this css property changes the color of the text. Khaki is a yellow mustard color
+      that goes well against the purple blue background. */
+      color: Khaki;
+      text-align: center;
+      font-size: 40px;
+    }
+
+    a {
+      color: brown;
+      /* This css property creates a shadow that makes the text look almost 3D.
+       It can be in a different color and position than original text. This text shadow
+      is shifted 5 pixels to the right, 7 pixels down, and is green . */
+      text-shadow: 5px 7px green;
+      font-size: 20;
+    }
+
+    a:hover {
+      color: green;
+      font-size: 10em;
+      /* This CSS property determines if the text or things between the HTML marquee of
+      the link visible. Currently, it is visible. However, it is possible to make it
+       hidden which it would make it a lot harder to press the link. */
+      visibility: visible;
+    }
+    /* this changes the css properties of header 1 which is the largest size header.
+    This happens when header 1 is hovered over with the mouse  */
+    h1:hover {
+      transform: rotate(20deg);
+      /* this changes the css properties of header 1 and makes the font thinner.
+      It can be used to differentiate the importantance of different texts. */
+      font-weight: lighter;
+      /* This css property changes the spacing between the individuals of the font.
+      Usually, people don't change the kerning because the default setting or normal is already proportional. */
+      font-kerning: normal;
+    }
+
+    h2:hover {
+      transform: skewX(20deg);
+    }
+
+    p {
+      color: coral;
+    }
+
+    p:hover {
+      /* This CSS property gives space or padding on top of the text. Right now, it is currently set to 25 pixels. */
+      padding-top: 25px;
+    }
+
+    small {
+      color: Gray;
+      /* This CSS property changes the place that the text is placed in. There are five
+      different positions to choose from: static, relative, fixed, absolute, and sticky.
+      The relative position is positioned to the normal position.*/
+      position: relative;
+    }
+
+    i {
+      color: lightcyan;
+      font-family: verdana;
+      /* This css property changes the amount of space a line of the text can take up.
+       If the text goes over the amount of pixels, then it will go down in the next line. */
+      width: 200;
+    }
+
+    strong {
+      /* This is a CSS property that changes the font family which changes the style of the font on the webpage. */
+      font-family: Impact;
+      /* This is a CSS property changes the way the text is displayed. Oblique setting makes it look like it is italicized. */
+      font-style: oblique;
+    }
+
+    small {
+      color: Azure;
+      /* This CSS property creates a line underneath the current text. It can create emphasis for the text. */
+      text-decoration: underline;
+      /* This text decoration changes the color of the underline because it is writen
+      underneath the text decoration of the underline. */
+      text-decoration-color: red;
+    }
+
+    h3 {
+      color: greenyellow;
+    }
+
+    h3:hover {
+      width: 100px;
+      transition: width 2s;
+    }
+
+    del {
+      font-size: 72px;
+      /* This is a CSS property used to create a gradient inside the text. The first
+      color that is inputed is the color on top. While, the second color in the code defines
+      the color on the bottom. In this case,the bright yellow to bright blue was chosen to
+      contrast the dark purple blue background which was chosen in the beginning */
+      background: -webkit-linear-gradient(#FFF8DC, #7FFFD4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+
+    mark {
+      /* This is a CSS property that changes the display. The mark or yellow highlight
+       was extended to the whole line because of this property. It is a really nice property
+       to use when wanting to emphasize something very important within a page. */
+      display: grid;
+    }
+
+    del {
+      /* This CSS property changes the pixels between characters. Its effect is
+      basically like kerning... except not sure why there are two different properties. */
+      letter-spacing: normal;
+      vertical-align: bottom;
+      border-collapse: collapse;
+
+    }
+
+    blockquote {
+      color: mistyrose;
+      /* This CSS property shifts the text an amount to a certain direction. Because the
+      indent number is negative, it means that it is going left.*/
+      text-indent: -5em;
+      /* This CSS property creates a dotted border that is 5 pixels in the color
+      mistyrose which is a really lightpink that almost looks white.  */
+      border: 5px dotted mistyrose;
+    }
+
+    ol {
+      /* This is a CSS property that can define the thickness of the border as well as the
+      style of it. There are different border styles to choose from. For example, there
+      is dotted, dashed, solid, double,groove, ridge, inset, outset, none, and hidden.  */
+      border: 1px solid;
+      /* This is a CSS property used to create space between lines or things defined by a border. */
+      padding: 10px;
+      /* This css property is used to create a box shadow that can change to any color
+      as long as you have the hex code */
+      box-shadow: 5px 10px #888888;
+    }
+
+    h4 {
+      color: white;
+    }
+
+    h4:hover {
+      /* this css property changes the opacity of the text. It looks lighter than the orignal text.
+       It can be used to point to that there is something to click to. */
+      opacity: 0.5;
+    }
+
+    /* CSS STOPS here */
+  </style>
+</head>
+<!-- HTML goes here! -->
+
+<!-- This HTML tag lets people who are reading the code know what is inside the webpage. -->
+<body>
+  <p>
+    <h1>In</h1>
+    <p>your</p>
+    <h3>electronic</h3>
+    <!-- This is a HTML tag that makes the text more bold. It also looks very similar to what strong looks like.-->
+    <b>arms</b>
+    <!-- This HTML marquee tag, heading 2, is used to differentiate the importance of text.
+    Using h2 would signify more importance than header 3, but it would mean it isn't as
+    important as header 1. It also changes character size when using different heading numbers. -->
+    <h2>…</h2>
+    <!-- This is a HTML tag that makes the text more bold or strong. -->
+    <strong>…</strong>
+
+    <center>……</center>
+    <!-- this is an html tag that italicizes the text -->
+    <i>ah</i>
+    <em>ah</em>
+    <h4>ah</h4>
+    <!-- This HTML tag makes the text smaller which can mean that it isn't as important as the paragraph tag. -->
+    <small>ah</small>
+    <!-- This HTML tag can make the text within the tag subscript. It makes smaller and sets the text
+    a little below the rest of the words of the paragraph. -->
+    <sub>ah</sub>
+    <!-- This HTML tag does basically the opposite of the subscript. The tag <sup> stands for
+    superscript which makes the text in the tag a little smaller and goes slighty above the rest of
+    the text or paragraph -->
+    <sup>ah</sup>
+    <!-- This HTML tag adds a line or strike through the text that is written. It almost creates
+     the feeling that the text needs to be edited or deleted. -->
+    <del>ah</del>
+    <ins>ah</ins>
+    <blockquote>ah</blockquote>
+    <!-- This html tag adds a horizontal line right above the wanted text. It can be used
+    to emphasize and seperate different parts of a page. It can also be used to change up the theme of the topic.
+    It is almost like the reason why people start new paragraphs in essay writing which is to create
+    a new thought or an idea.-->
+    <hr>…</hr>
+    <!-- This HTML tag <br> is used to create a line break in between text. This means that after the text,
+    it will go to the next line. This is useful when writing lyrics or addresses which is needed to be spaced.-->
+    <br>…</br>
+    <!-- This HTML tag is the 4th most important text on the page. It is still a heading
+     which is important, but it is smaller than heading 3 and bigger than heading 5. -->
+    <h4>……</h4>
+    <ol>…</ol>
+    <!-- This html marquee tag allows the text to link to something. It is linked to another person's github page. -->
+    <a href="https://tyarporn.github.io/web-nyu-idm/here-come-the-planes"><mark>..</mark></a>
+  </p>
+</body>
+
+</html>
+<!-- HTML STOPS here! -->
