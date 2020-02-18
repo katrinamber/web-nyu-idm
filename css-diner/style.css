@@ -1,5 +1,5 @@
 
-/* This is default helpul CSS to include - dont edit this part unless... you want to */
+/* I added level 3,6,11,16, and from the CSS-Diner. */
 html,
 body {
   margin: 0;
@@ -9,7 +9,7 @@ body {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-/* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
+
 
 /* @font-face {
   font-family: 'violet';
@@ -47,7 +47,7 @@ img {
 }
 
 #rose{
-  color:red;
+  color:crimson;
 }
 
 #hib{
@@ -57,12 +57,30 @@ img {
 #sun.p{
   color:gold;
 }
-b{
-  color: red;
+
+#tulip{
+  color:lightcoral;
 }
+
+#tu{
+  color:lightcoral;
+}
+
 
 /* Level 11: Combine the Universal Selector is added. I selected everything that was in the
 sunflower class and changed the color to gold. */
 div.sunflower * {
   color:gold;
+}
+
+ /* Level 16: Only Child Pseudo-selector is added. This chose the only child which was
+ the bolded. You can tell it's a child because it's nested in the paragraph or <p> tag. I changed the color to red.*/
+p b:only-child{
+  color:red;
+}
+/* Level 23: Only of Type Selector is added. The underline tag
+ is the only one there, so that's why it is selected. I changed the color 
+ to salmon to match the title of the hibiscus.*/
+p u:only-of-type{
+  color:salmon;
 }
