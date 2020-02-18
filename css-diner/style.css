@@ -11,18 +11,19 @@ body {
 }
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
 
-@font-face {
+/* @font-face {
   font-family: 'violet';
   src: url('./fonts/VioletSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 body {
-  background-color: violet;
-  color: yellow;
+  background-color: black;
+  color: pink;
   text-align: center;
   font-size: 2em;
+  font-family: 'Galada', cursive;
 }
 
 .my-fun-class {
@@ -35,4 +36,20 @@ body {
 img {
   width: 40%;
   padding: 2em;
+}
+
+/* level 3 */
+#sunflower{
+  color:yellow;
+}
+
+#rose{
+  color:red;
+}
+
+#hib{
+  color:salmon;
+}
+b{
+  color: red;
 }
