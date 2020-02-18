@@ -1,5 +1,5 @@
 
-/* I added level 3,6,11,16, and from the CSS-Diner. */
+/* I added level 3,6,11,16, and 23 from the CSS-Diner. */
 html,
 body {
   margin: 0;
@@ -79,7 +79,7 @@ p b:only-child{
   color:red;
 }
 /* Level 23: Only of Type Selector is added. The underline tag
- is the only one there, so that's why it is selected. I changed the color 
+ is the only one there, so that's why it is selected. I changed the color
  to salmon to match the title of the hibiscus.*/
 p u:only-of-type{
   color:salmon;
