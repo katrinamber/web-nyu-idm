@@ -26,7 +26,10 @@ body {
   font-family: 'Galada', cursive;
 }
 
-.my-fun-class {
+
+/* Level 6: Class Selector is added. I changed everything within the class that is titled
+flowers. I added a border and made the display block */
+.flowers {
   width: 40%;
   border: 2px solid forestgreen;
   display: block;
@@ -38,7 +41,7 @@ img {
   padding: 2em;
 }
 
-/* level 3 */
+/* Level 3: ID Selector is added. I used this to change the color of a specific header 2 which has the id of "sunflower" */
 #sunflower{
   color:yellow;
 }
@@ -50,6 +53,16 @@ img {
 #hib{
   color:salmon;
 }
+
+#sun.p{
+  color:gold;
+}
 b{
   color: red;
+}
+
+/* Level 11: Combine the Universal Selector is added. I selected everything that was in the
+sunflower class and changed the color to gold. */
+div.sunflower * {
+  color:gold;
 }
