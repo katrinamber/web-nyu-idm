@@ -3,6 +3,6 @@
 ## h3
 
 **this is bold**
--these
--are
--bullets
+- these
+- are
+- bullets
