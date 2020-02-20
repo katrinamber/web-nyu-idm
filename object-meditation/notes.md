@@ -5,7 +5,6 @@
 - comfort
 - sleep
 - family
--
 
 ### Are there spatial places this object is associated with?
 
@@ -21,8 +20,12 @@
 ### feel like?
 
 - feels soft
+- feels like home
+- feels comforting
+- feels warm almost alive
 
 ### sound like?
+- doesn't sound like anything/ doesn't talk
 
 ### smell like?
 
@@ -58,6 +61,8 @@
 - 2 other kids look like sheepy's mini me
 
 ### What is a specific memory that you have with this object?
+- 10 years ago chilling in Vancouver with my cousins with her own sheep and turtle plush
+- all the plushies were playing together
 
 
 
