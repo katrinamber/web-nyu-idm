@@ -16,8 +16,8 @@ body {
 }
 
 body {
-  background-color: violet;
-  color: yellow;
+  background-color: #fCDCDF;
+  color: #F498c2;
   text-align: center;
   font-size: 2em;
 }
@@ -27,6 +27,13 @@ body {
   border: 2px solid limegreen;
   display: block;
   margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media only screen and (max-width: 600px) {
