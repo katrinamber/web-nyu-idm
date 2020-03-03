@@ -22,6 +22,50 @@ body {
   font-size: 2em;
 }
 
+img{
+width: 700px;
+
+}
+
+#cloud1 {
+  width: 700px;
+  height: 500px;
+  display: block;
+  margin-top: -30%;
+  margin-left: 5%;
+}
+
+#cloud2 {
+  width: 700px;
+  height: 300px;
+  display: block;
+  margin-left: 50%;
+}
+
+.cloud {
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 70%;
+}
+
+.cloud1 {
+  position:relative;
+  top: 20%;
+  left: -10%;
+  text-shadow: 3px 5px #fCDCDF;
+}
+
+.cloud2 {
+  position:relative;
+  top: -10%;
+  left: 5%;
+  text-shadow: 3px 5px #fCDCDF;
+}
+
+
+
+
 .my-fun-class {
   width: 50%;
   border: 2px solid limegreen;
@@ -29,11 +73,12 @@ body {
   margin: auto;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+
+.top-left {
+  position: absolute;
+  top: 330px;
+  left: 530px;
 }
 
 @media only screen and (max-width: 600px) {
