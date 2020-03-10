@@ -31,7 +31,7 @@ width: 700px;
   width: 700px;
   height: 500px;
   display: block;
-  margin-top: -30%;
+  margin-top: -15%;
   margin-left: 5%;
 }
 
@@ -43,8 +43,29 @@ width: 700px;
 #cloud2 {
   width: 700px;
   height: 300px;
-  display: block;
+  display: inline-block;
+  margin-top: -10%;
   margin-left: 50%;
+}
+
+#cloud3 {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-top: -5%;
+  margin-left: 15%;
+}
+
+#cloud4 {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-top: -15%;
+  margin-left: 45%;
+}
+
+a {
+  color:salmon;
 }
 
 .cloud {
@@ -62,11 +83,29 @@ width: 700px;
 }
 
 .cloud2 {
-  position:relative;
-  top: 20%;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: -20%;
   left: 5%;
   text-shadow: 3px 5px #fCDCDF;
 }
+
+.cloud3 {
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 15%;
+  text-shadow: 3px 5px #fCDCDF;
+}
+
+/* .cloud4 {
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 15%;
+  text-shadow: 3px 5px #fCDCDF;
+} */
 
 .hideme{
   color: #fCDCDF;
