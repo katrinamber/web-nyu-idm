@@ -279,8 +279,159 @@ to { opacity: 1; }
   left: 530px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+
+ /* IPHONE 6 */
+@media only screen and (max-width: 750px) {
+  h1 {
+    font-size: 1.5em;
+    margin-left: 75%;
+    text-align: center;
+    display: inline-block;
   }
+
+  audio {
+    margin-left: 60%;
+  }
+ #cloud1{
+   margin-top: -40%;
+   width: 400px;
+   height: 200px;
+ }
+
+  #cloud2 {
+    margin-left: 70%;
+    width: 400px;
+    height: 200px;
+
+  }
+
+  #cloud3{
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 400px;
+    height: 200px;
+  }
+
+  #cloud4{
+    margin-top: -25%;
+margin-left: 80%;
+ width: 400px;
+ height: 200px;
+  }
+ .slider{
+   margin-left: 300px;
+   text-align: center;
+   display: inline-block;
+
+ }
+ .slider-nav{
+   margin-left: 300px;
+   text-align: center;
+   display: inline-block;
+
+ }
+}
+
+/* IPHONE 6 PLUS */
+@media only screen and (max-width: 1080px) {
+  h1 {
+    font-size: 1.5em;
+    margin-left: 65%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  audio {
+    margin-left: 60%;
+  }
+ #cloud1{
+   margin-top: -40%;
+   width: 400px;
+   height: 200px;
+ }
+
+  #cloud2 {
+    margin-left: 70%;
+    width: 400px;
+    height: 200px;
+
+  }
+
+  #cloud3{
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 400px;
+    height: 200px;
+  }
+
+  #cloud4{
+    margin-top: -25%;
+margin-left: 80%;
+ width: 400px;
+ height: 200px;
+  }
+ .slider{
+   margin-left: 300px;
+   text-align: center;
+   display: inline-block;
+
+ }
+ .slider-nav{
+   margin-left: 300px;
+   text-align: center;
+   display: inline-block;
+
+ }
+}
+
+/* IPHONE X */
+@media only screen and (max-width: 1125px) {
+  h1 {
+    font-size: 1.5em;
+    margin-left: 65%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  audio {
+    margin-left: 60%;
+  }
+ #cloud1{
+   margin-top: -40%;
+   width: 400px;
+   height: 200px;
+ }
+
+  #cloud2 {
+    margin-left: 70%;
+    width: 400px;
+    height: 200px;
+
+  }
+
+  #cloud3{
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 400px;
+    height: 200px;
+  }
+
+  #cloud4{
+    margin-top: -25%;
+margin-left: 80%;
+ width: 400px;
+ height: 200px;
+  }
+ .slider{
+   margin-left: 300px;
+   text-align: center;
+   display: inline-block;
+
+ }
+ .slider-nav{
+   margin-left: 300px;
+   text-align: center;
+   display: inline-block;
+
+ }
 }
