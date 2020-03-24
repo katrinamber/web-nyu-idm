@@ -1,3 +1,4 @@
+// found this online to create the slideshow
 const items = document.querySelectorAll('img');
 const itemCount = items.length;
 const nextItem = document.querySelector('.next');
@@ -32,3 +33,20 @@ function showPreviousItem() {
 
 nextItem.addEventListener('click', showNextItem);
 previousItem.addEventListener('click', showPreviousItem);
+
+
+$("#morning").click(function(){
+  $("body").css({"background-color": "#fed8b1"});
+});
+
+$("#night").click(function(){
+  $("body").css({"background-color": "#003366"});
+  });
+
+  $("#dark").click(function(){
+    $("body").css({"background-color": "black"});
+    });
+
+$("#reset").click(function(){
+    $("body").css({"background-color": "#fCDCDF"});
+  });
